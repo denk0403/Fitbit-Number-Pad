@@ -8,7 +8,7 @@ This open source software represents a reusable and customizable number pad for 
 
 # How To Use
 ### Step 1
-In the `resources` folder, copy the `back_arrow.png` file into your own project.
+In the `resources/` folder, copy the `back_arrow.png` file into your own project.
 
 ### Step 2
 Again in the `resources/` folder, go into the `styles.css` file and copy the contents into your CSS file 
