@@ -11,20 +11,20 @@ This open source software represents a reusable and customizable number pad for 
 In the `resources` folder, copy the `back_arrow.png` file into your own project.
 
 ### Step 2
-Again in the `resources` folder, go into the `styles.css` file and copy the contents into your CSS file 
+Again in the `resources/` folder, go into the `styles.css` file and copy the contents into your CSS file 
 (Check to make sure the selector's class name doesn't conflict with any existing class names in your project).
 
 ### Step 3
-Next in the `resources` folder, go into the `widgets.gui` file and copy only the necessary imports into your widgets file
+Next in the `resources/` folder, go into the `widgets.gui` file and copy only the necessary imports into your widgets file
 (You can avoid this step if your project already contains these imports).
 
 ### Step 4
-Last in the `resources` folder, go into the `index.gui` file and copy the entire SVG element labeled "Number Pad Screen"
+Last in the `resources/` folder, go into the `index.gui` file and copy the entire SVG element labeled "Number Pad Screen"
 and with the attribute `id="number_entry_screen"` (Look for comments indicating the beginning and end of the necessary code). 
 Paste this element at the __END__ of the top-level SVG element of your `index.gui` file, or else it may not display properly.
 
 ### Step 5
-Now in the `app` folder, copy the first part of the code in the `index.js` file, and paste it at the top of your main file
+Now in the `app/` folder, copy the first part of the code in the `index.js` file, and paste it at the top of your main file
 (Look again for comments indicating the beginning and end of the necessary code).
 
 To make any Square Button or Push Button to act as a user number field, retrieve its corresponding element 
