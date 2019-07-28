@@ -1,0 +1,86 @@
+
+<!-- Number Pad Screen Below Examples! -->
+<svg>
+ 
+  <!-- Example button element compatible with number pad -->
+  <use id="example_number_field1" href="#square-button" y="5" fill="white">
+    <set href="#text" attributeName="text-buffer" to="" />
+    <set href="#text" attributeName="text-length" to="1000" />
+  </use>
+  
+  <!-- Another example button element compatible with number pad -->
+  <use id="example_number_field2" href="#push-button" y="$" height="50" fill="orange">
+    <set href="#text" attributeName="y" to="10" />
+    <set href="#text" attributeName="text-buffer" to="" />
+    <set href="#text" attributeName="text-length" to="1000" />
+  </use>
+  
+  
+  <!-- Number Pad Screen -->
+  <!-- * MUST GO AT THE END OF SVG FILE! * -->
+  <svg id="number_entry_screen" width="300" height="300" visibility="hidden">
+
+    <!-- Blocks other screen content -->
+    <rect width="300" height="300" />
+    
+    <!-- Input Display -->
+    <text id="input" text-anchor="end" font-family="Tungsten-Medium"
+      x="295" y="50" text-length="1000" font-size="45" fill="white" />
+    
+    <!-- Back Button -->
+    <use id="back_button" href="#square-button" x="15" y="10" width="30" height="55">
+      <set href="#image" attributeName="display" to="inline" />
+      <set href="#image" attributeName="href" to="back_arrow.png" />
+    </use>
+    
+    <!-- SVG element containing actual number pad -->
+    <svg id="number_pad">
+      <use class="number" href="#push-button" x="5" y="60">
+        <set href="#text" attributeName="text-buffer" to="7" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="$+3" y="$-57">
+        <set href="#text" attributeName="text-buffer" to="8" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="$+3" y="$-57">
+        <set href="#text" attributeName="text-buffer" to="9" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="5" y="$+3">
+        <set href="#text" attributeName="text-buffer" to="4" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="$+3" y="$-57">
+        <set href="#text" attributeName="text-buffer" to="5" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="$+3" y="$-57">
+        <set href="#text" attributeName="text-buffer" to="6" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="5" y="$+3">
+        <set href="#text" attributeName="text-buffer" to="1" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="$+3" y="$-57">
+        <set href="#text" attributeName="text-buffer" to="2" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="$+3" y="$-57">
+        <set href="#text" attributeName="text-buffer" to="3" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" href="#push-button" x="5" y="$+3" width="193">
+        <set href="#text" attributeName="text-buffer" to="0" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+      <use class="number" id="enter" href="#push-button" x="$+3" y="$-57">
+        <set href="#text" attributeName="text-buffer" to="Done" />
+        <set href="#text" attributeName="y" to="10" />
+      </use>
+    </svg>
+  </svg>
+  <!-- End of Number Pad Screen -->
+  
+</svg>
