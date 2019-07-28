@@ -36,3 +36,6 @@ The `index.js` file demonstrates exactly how that should look like.
 ![image](https://user-images.githubusercontent.com/3473945/62004287-25d78900-b0f1-11e9-9172-564bb95027c0.png)
 ![image](https://user-images.githubusercontent.com/3473945/62004288-296b1000-b0f1-11e9-96ef-deafff86cdbe.png)
 ![image](https://user-images.githubusercontent.com/3473945/62004292-2c660080-b0f1-11e9-9b91-de7395f98e91.png)
+
+# License
+Number Pad for Fitbit Apps is licensed under the MIT License - see the [LICENSE](https://github.com/denk0403/Fitbit-Number-Pad/blob/master/LICENSE) file for details.
