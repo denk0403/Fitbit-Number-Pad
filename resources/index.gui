@@ -28,7 +28,7 @@
       x="295" y="50" text-length="1000" font-size="45" fill="white" />
     
     <!-- Back Button -->
-    <use id="back_button" href="#square-button" x="15" y="10" width="30" height="55">
+    <use id="back_button" href="#square-button" x="-5" y="7" width="65" height="55">
       <set href="#image" attributeName="display" to="inline" />
       <set href="#image" attributeName="href" to="back_arrow.png" />
     </use>
